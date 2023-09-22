@@ -3,6 +3,9 @@ This application is built using Spring Boot, Spring Security with JPA Authentica
 AWS RDS MySQL and Dynamo DB is being used to persist data. Notification service is build using AWS SNS. And application is deploy on AWS EC2.
 Build and integrated abusive sentence classification ML model to prevent hate speech.
 
+You can access PA vote application from below url.
+http://54.90.10.86:8080
+
 # Backend Code
 spring-pavote
 
