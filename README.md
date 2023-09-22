@@ -16,6 +16,9 @@ angular-pavote
 
 <img width="1440" alt="Screenshot 2023-09-22 at 11 19 18 PM" src="https://github.com/shubham-er/Mavericks-PAVote/assets/43089278/d6251b66-98cf-445a-b067-4272c3db22ec">
 
+![WhatsApp Image 2023-09-23 at 12 12 00 AM](https://github.com/shubham-er/Mavericks-PAVote/assets/43089278/124a6d20-0a9e-43aa-a6ae-29ec99a1a07a)
+
+
 <img width="1440" alt="Screenshot 2023-09-22 at 11 21 38 PM" src="https://github.com/shubham-er/Mavericks-PAVote/assets/43089278/e6040413-109c-432c-93d8-69da45164549">
 
 <img width="1440" alt="Screenshot 2023-09-22 at 11 22 13 PM" src="https://github.com/shubham-er/Mavericks-PAVote/assets/43089278/1908d77a-1230-4248-89ac-926a2a2dd963">
