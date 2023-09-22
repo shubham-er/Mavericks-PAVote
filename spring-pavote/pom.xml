@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.programming.techie</groupId>
-    <artifactId>spring-reddit-clone</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
-    <name>spring-reddit-clone</name>
+    <artifactId>spring-pavote</artifactId>
+    <version>0.0.1</version>
+    <name>spring-pavote</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
@@ -37,7 +37,6 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
-
         <dependency>
             <groupId>com.mysql</groupId>
             <artifactId>mysql-connector-j</artifactId>
@@ -135,10 +134,10 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.8.1</version> <!-- or newer version -->
+                <version>3.8.1</version> 
                 <configuration>
-                    <source>${java.version}</source> <!-- depending on your project -->
-                    <target>${java.version}</target> <!-- depending on your project -->
+                    <source>${java.version}</source> 
+                    <target>${java.version}</target> 
                     <annotationProcessorPaths>
                         <path>
                             <groupId>org.mapstruct</groupId>
@@ -158,7 +157,7 @@
                     </annotationProcessorPaths>
                 </configuration>
             </plugin>
-            <plugin>
+            <!--plugin>
                 <groupId>org.jetbrains.kotlin</groupId>
                 <artifactId>kotlin-maven-plugin</artifactId>
                 <version>${kotlin.version}</version>
@@ -177,27 +176,8 @@
                         </configuration>
                     </execution>
                 </executions>
-            </plugin>
-            <plugin> 
-                <artifactId>maven-resources-plugin</artifactId> 
-                <executions> 
-                    <execution> 
-                        <id>copy-resources</id> 
-                        <phase>validate</phase> 
-                        <goals>
-                            <goal>copy-resources</goal>
-                        </goals> 
-                        <configuration> 
-                            <outputDirectory>${build.directory}/classes/static/</outputDirectory >
-                <resources>
-                <resource>
-                <directory>../resources/static</directory>
-                </resource>
-                </resources>
-                </configuration>
-                </execution>
-                </executions>
-                </plugin>
+            </plugin-->
+            
         </plugins>
     </build>
 
